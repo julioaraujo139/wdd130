@@ -1,7 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Kanit:wght@200;700&family=Open+Sans:ital,wght@0,300;0,800;1,300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -104,6 +105,7 @@ img {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
+  font-family: Open Sans;
 }
 
 nav {
