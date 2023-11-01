@@ -1,3 +1,6 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Rubik:wght@300&display=swap');
 
 #content {
@@ -19,6 +22,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -74,12 +78,12 @@ nav a:hover {
 }
 
 h1 {
-    color: #f0d20b;
+    color:palevioletred;
     
 }
 
 h4 {
-    color: #ffffff;
+    color: #f0d20b;
     font-family: 'rubik';
     font-size: 2em;
 }
@@ -94,7 +98,7 @@ main section {
     grid-template-columns: repeat(10, 1fr);
 }
 
-.rivers-card {
+.river-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -132,10 +136,10 @@ body {
     padding: 0;
 }
 
-.card-img, .mountain {
+.card-img, .mountains {
     width: 100%;
 }
-.rivers-card, .camping-card, .rapids-card {
+.river-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 
