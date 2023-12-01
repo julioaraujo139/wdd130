@@ -52,7 +52,7 @@ nav, a{
 
 h1{
     font-family: kanit;
-    color:#ffffff;
+    color:#48FF00;
     font-size: 4em;
     letter-spacing: 5px;
     margin: 0;
@@ -60,7 +60,6 @@ h1{
 
 h2{
     font-family: kanit;
-    color: #48FF00;
     font-size: 4em;
     letter-spacing: 5px;
     margin: 0;
@@ -148,4 +147,48 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 2em;
+}
+
+form {
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: open Sans;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+input {
+    height: 2em;
+    border-radius: 1em;
+    padding-left: 20px;
+}
+
+textarea {
+    height: 8em;
+    border-radius: 2em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.submit {
+    height: 3.5em;
+    margin-top: 3em;
+    font-family: open sans;
+    color: #050E12;
+    font-size: 1em;
+    background-color: #48FF00;
+    font-weight: 600;
+}
+
+#nome, #email, #message {
+    font-family: open sans;
+    font-size: 1em;
 }
