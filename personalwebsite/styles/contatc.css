@@ -92,8 +92,15 @@ main {
     border-bottom-left-radius: 4em;
     border-bottom-right-radius: 4em;
 }
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+}
 .title_paragraph {
-    height: 400px;
+    height: 500px;
     color: #091A22;
     padding-top: 2em;
     padding-left: 2em;
@@ -109,14 +116,15 @@ main {
     padding: 30px;
     width: 40em;
     border-radius: 40px;
-    margin: 2.5% 11.5em 0;
-    margin-top: -300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -400px;
 }
 
 .img {
     width: 100%;
+    margin-top: 200px;
 }
-
 footer {
     height: 100%;
     background-color: #050E12;
@@ -191,7 +199,7 @@ footer {
     height: 100%;
     background-color: #050E12;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding: 0 5em;
     gap: 5em;
