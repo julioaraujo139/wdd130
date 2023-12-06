@@ -64,6 +64,7 @@ h1{
     font-size: 4em;
     letter-spacing: 5px;
     margin: 0;
+
 }
 
 h2{
@@ -93,17 +94,19 @@ h3{
 }
 main {
     display: grid;
-    grid-template-rows: repeat(2 1fr);
+    grid-template-rows: repeat(3 1fr);
     gap: 50px;
-    background-color:#848D91 ;
     border-bottom-left-radius: 4em;
     border-bottom-right-radius: 4em;
 }
 .title_paragraph {
+    height: 400px;
     color: #091A22;
     padding-top: 2em;
-    margin-left:2em;
-    text-align: left;
+    padding-left: 2em;
+    background-color:#848D91;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .paragraph{
@@ -114,6 +117,7 @@ main {
     width: 40em;
     border-radius: 40px;
     margin: 2.5% 11.5em 0;
+    margin-top: -300px;
 }
 
 .img {
