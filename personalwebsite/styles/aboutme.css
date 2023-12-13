@@ -42,36 +42,29 @@ nav, a{
     font-size: 1.2em;
 }
 
-.background{
+.container {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-gap: 4rem;
-    padding: 10em 5em 0em;
-    margin-top: -2em;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 5em 0em;
     height: 40.7em;
     background:linear-gradient(to bottom, #050E12, #0E1E26);
 }
 
-.img_title {
-    width: 550px;
-    margin-right: auto;
-    margin-top: auto;
-    margin-left: auto;
-    grid-column: 2/3;
-    filter: grayscale(100%) brightness(80%);
+.item1 {
+    grid-row: 1; 
+    grid-column: 1;
 }
 
-.text {
-    grid-row: 1/2;
-    align-self:center;
-}
 h1{
     font-family: kanit;
     color:#ffffff;
     font-size: 4em;
     letter-spacing: 5px;
     margin: 0;
-
 }
 
 h2{
@@ -96,16 +89,25 @@ h3{
     padding-top: 6em;
 }
 
-.main  {
-    
+.img_title {
+    height: 650px;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    grid-column: 2/3;
+    filter: grayscale(100%) brightness(80%);
 }
+
 main {
     display: grid;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-rows: 1fr;
     gap: 50px;
     border-bottom-left-radius: 4em;
     border-bottom-right-radius: 4em;
 }
+
 .title_paragraph {
     height: 500px;
     color: #091A22;
@@ -123,23 +125,29 @@ main {
     padding: 30px;
     width: 40em;
     border-radius: 40px;
-    margin: 2.5% 11.5em 0;
-    margin-top: -300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -400px;
 }
 
 .img {
     width: 100%;
-    filter: grayscale(100%) brightness(80%);
+    margin-top: 200px;
 }
 
 footer {
     height: 100%;
     background-color: #050E12;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding: 0 5em;
     gap: 5em;
+}
+
+.p-footer {
+    color: #ffffff; 
+    font-family: open sans;
 }
 
 .logo_footer{
@@ -157,4 +165,3 @@ footer {
     flex-direction: row;
     gap: 2em;
 }
-

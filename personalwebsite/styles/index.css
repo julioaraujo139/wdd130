@@ -142,10 +142,15 @@ footer {
     height: 100%;
     background-color: #050E12;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding: 0 5em;
     gap: 5em;
+}
+
+.p-footer {
+    color: #ffffff; 
+    font-family: open sans;
 }
 
 .logo_footer{
@@ -163,11 +168,3 @@ footer {
     flex-direction: row;
     gap: 2em;
 }
-
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
